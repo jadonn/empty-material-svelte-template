@@ -1,0 +1,30 @@
+{
+  "name": "empty-material-svelte-template",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^12.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.0",
+    "@rollup/plugin-replace": "^2.3.2",
+    "@smui/button": "^1.0.0-beta.21",
+    "@smui/data-table": "^1.0.0-beta.21",
+    "@smui/list": "^1.0.0-beta.21",
+    "@smui/menu": "^1.0.0-beta.21",
+    "@smui/menu-surface": "^1.0.0-beta.21",
+    "cypress": "^4.8.0",
+    "node-sass": "^4.14.1",
+    "rollup": "^2.3.4",
+    "rollup-plugin-livereload": "^1.0.0",
+    "rollup-plugin-postcss": "^3.1.1",
+    "rollup-plugin-svelte": "^5.0.3",
+    "rollup-plugin-terser": "^5.1.2",
+    "svelte": "^3.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^0.4.4"
+  }
+}
